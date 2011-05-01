@@ -1,0 +1,43 @@
+*ro-when-swapfound.txt* Open Vim in read-only mode when swapfile is found.
+
+Author:  OMI TAKU                                    *ro-when-swapfile-author*
+URL      http://nanasi.jp/
+email    mail@nanasi.jp
+
+INTRODUCTION                                                *ro-when-swapfile*
+Prevent to display attention dialog,
+and open Vim in read-only mode when swapfile is found.
+
+If you want to fix swapfile, and want to display attention dialog,
+you do this.
+>
+    :ToggleSwapCheck
+    :e
+<
+
+See also
+Open same file read-only in second Vim
+http://vim.wikia.com/wiki/Open_same_file_read-only_in_second_Vim
+
+SOURCE REPOSITORY                                   *ro-when-swapfile-project*
+https://github.com/taku-o/vim-ro-when-swapfound
+
+INSTALL DETAILS                                    *ro-when-swapfound-install*
+1. copy files to your .vim or vimfiles direcory.
+2. helptags to your .vim/doc or vimfiles/doc direcory.
+>
+    :helptags $HOME/.vim/doc
+<
+    or
+>
+    :helptags $HOME/vimfiles/doc
+<
+
+HISTORY                                            *ro-when-swapfound-history*
+1.0     2011/05/01 18:30:00
+  - Initial upload.
+1.0.1   2011/05/01 18:50:00
+  - Add this document.
+  - add ToggleSwapCheck Command.
+
+ vim:tw=78:ts=8:ft=help:norl:

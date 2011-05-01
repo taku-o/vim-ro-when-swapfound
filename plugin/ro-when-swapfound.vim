@@ -63,6 +63,9 @@ function! s:GetVimCmdOutput(cmd)
     return ''
 endfunction
 
+" command
+command! ToggleSwapCheck call ToggleSwapCheck()
+
 " ---------------------------------------------------------------------
 let &cpo= s:keepcpo
 unlet s:keepcpo
